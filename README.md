@@ -1,2 +1,4 @@
-# Automatic-Exit-Control-System-PRJ
-Control  entry and exit in control system
+# \# Exit System Module
+
+# Handles vehicle exit and fee calculation based on time spent.
+
