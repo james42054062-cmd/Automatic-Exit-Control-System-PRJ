@@ -1,12 +1,24 @@
 # \# Entry System Module
 
-# This branch handles vehicle entry into the parking system.
+# 
 
-# Features:
+# This branch handles the vehicle entry system of the project.
 
-# \- Ticket generation
+# 
 
-# \- Vehicle registration
+# \## Features
 
-# \- Entry logging
+# \- Detects incoming vehicles
+
+# \- Assigns entry time
+
+# \- Generates entry log
+
+# \- Interface for entry processing
+
+# 
+
+# \## Status
+
+# Development in progress
 
