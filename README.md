@@ -1,2 +1,12 @@
-# Automatic-Exit-Control-System-PRJ
-Control  entry and exit in control system
+# \# Entry System Module
+
+# This branch handles vehicle entry into the parking system.
+
+# Features:
+
+# \- Ticket generation
+
+# \- Vehicle registration
+
+# \- Entry logging
+
