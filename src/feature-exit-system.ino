@@ -1,20 +1,19 @@
-#define EXIT_SENSOR_PIN 27
-#define DEBOUNCE_DELAY 300
+# Vehicle Exit System
 
-unsigned long lastExitTime = 0;
+## Description
 
-void setup() {
-  Serial.begin(115200);
-  pinMode(EXIT_SENSOR_PIN, INPUT_PULLUP);
-}
+This module detects vehicle/person exit.
 
-void loop() {
-  int exitState = digitalRead(EXIT_SENSOR_PIN);
+## Functionality
 
-  if (exitState == LOW) {
-    if (millis() - lastExitTime > DEBOUNCE_DELAY) {
-      Serial.println("EXIT");
-      lastExitTime = millis();
-    }
-  }
-}
+* Detects exit events
+* Sends "EXIT" signal via Serial
+
+## Hardware
+
+* ESP32
+* IR Sensor / Push Button
+
+## Author
+
+Exit System Team
