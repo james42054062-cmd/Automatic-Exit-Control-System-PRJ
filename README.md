@@ -1,24 +1,20 @@
-# \# UI Module
+# UI System
 
-# 
+## Description
 
-# This branch handles the user interface of the system.
+Displays occupancy and vacant slots using SPI display.
 
-# 
+## Functionality
 
-# \## Features
+* Receives ENTRY / EXIT signals
+* Updates occupancy
+* Displays real-time data
 
-# \- Main menu interface
+## Hardware
 
-# \- User navigation system
+* ESP32
+* ILI9341 SPI Display
 
-# \- Input/output display formatting
+## Author
 
-# \- Interactive system prompts
-
-# 
-
-# \## Status
-
-# UI design and improvements in progress
-
+UI Team
